@@ -66,6 +66,7 @@ const handleSubmit = (event) => {
         foneInput.value = '';
 
         removeLoading();
+        ableinputs();
     })
 }
 
