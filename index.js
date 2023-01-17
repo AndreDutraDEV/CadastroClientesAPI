@@ -95,6 +95,40 @@ inputFone.addEventListener('keypress', (e) => {
 
 })
 
+
+
+
+
+
+function testemob() {
+    
+let inputLength = inputFone.value.length;
+
+    if (!checkNum(e)) {
+        e.preventDefault();
+    }
+
+    if (inputLength === 0) {
+        inputFone.value += '(';
+    } else if (inputLength === 3) {
+        inputFone.value += ') '
+    } else if (inputLength === 10) {
+        inputFone.value += '-'
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 function checkNum(e) {
     const char = String.fromCharCode(e.keyCode);
 
