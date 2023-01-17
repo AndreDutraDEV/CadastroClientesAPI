@@ -76,7 +76,7 @@ document.getElementById('formDataClient').addEventListener('submit', handleSubmi
 
 const inputFone = document.getElementById('foneCliData');
 
-inputFone.addEventListener('keydown', (e) => {
+inputFone.addEventListener('keypress', (e) => {
 
     let inputLength = inputFone.value.length;
 
