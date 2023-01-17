@@ -79,6 +79,7 @@ const inputFone = document.getElementById('foneCliData');
 
 inputFone.addEventListener('keypress', (e) => {
 
+    alert('teste')
     let inputLength = inputFone.value.length;
 
     if (!checkNum(e)) {
