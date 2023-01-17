@@ -79,7 +79,9 @@ const inputFone = document.getElementById('foneCliData');
 
 inputFone.addEventListener('keypress', (e) => {
 
-    alert('teste')
+    alert('teste');
+    console.log('dkfslkdjf');
+    
     let inputLength = inputFone.value.length;
 
     if (!checkNum(e)) {
