@@ -5,6 +5,7 @@ let nameInput = document.getElementById('nomeCliData');
 let emailInput = document.getElementById('emailCliData');
 let foneInput = document.getElementById('foneCliData');
 
+
 const addLoading = () => {
     // buttonSubmitData.classList.add('activeLoading');
     buttonSubmitData.innerHTML = '<span class="spinLoading"></span>'
