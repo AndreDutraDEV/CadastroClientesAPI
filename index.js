@@ -81,9 +81,6 @@ inputFone.addEventListener('keypress', (e) => {
 
     let inputLength = inputFone.value.length;
 
-    console.log("fkldjflkd")
-    alert('jkhkjh')
-
     if (!checkNum(e)) {
         e.preventDefault();
     }
